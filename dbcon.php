@@ -1,12 +1,12 @@
 <?php
 
-$db_host = "sql103.epizy.com";
+$db_host = "localhost";
 
-$db_user = "epiz_25525172";
+$db_user = "your_username";
 
-$db_pass = "Up0MATupvPhvg";
+$db_pass = "your_password";
 
-$db_name = "epiz_25525172_woato";
+$db_name = "db_name";
 
 $link = mysqli_connect("$db_host", "$db_user", "$db_pass", "$db_name");
 
